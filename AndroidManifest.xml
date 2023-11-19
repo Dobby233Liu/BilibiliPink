@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.dobby233liu.theming.accent.pink_ssr"
+    android:compileSdkVersion="30" android:compileSdkVersionCodename="11"
+    platformBuildVersionCode="30" platformBuildVersionName="11">
+    <overlay
+        android:targetPackage="android"
+        android:category="android.theme.customization.accent_color"
+        android:priority="1"/>
+    <application
+        android:extractNativeLibs="false" android:hasCode="false"
+        android:label="@string/accent_color_pink_ssr_overlay"
+        android:usesNonSdkApi="true"/>
+</manifest>
